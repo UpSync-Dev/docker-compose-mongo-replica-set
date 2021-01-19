@@ -51,7 +51,7 @@ rs.initiate(
 ## Robo 3T
 I used Robo 3T to test it locally and used the following config for the connection:
 
-![Robo 3T Config](https://raw.githubusercontent.com/UpSync-Dev/docker-compose-mongo-replica-set/main/robo-3t.png)
+![Robo 3T Config](https://github.com/UpSync-Dev/docker-compose-mongo-replica-set/raw/main/robo-3t.png)
 
 ## Thanks / Further Reading
 - [How to turn standalone MongoDB server into a replica set with Docker-Compose](https://zgadzaj.com/development/docker/docker-compose/turning-standalone-mongodb-server-into-a-replica-set-with-docker-compose)
