@@ -1,5 +1,14 @@
 # Running a Local Mongo Replica Set
 
+## Contents
+* [What is it?](#what-is-it)
+* [Are there any prerequisites?](#are-there-any-prerequisites)
+* [How do I run the Replica Set?](#how-do-i-run-the-replica-set)
+* [How do I access the Mongo Shells for each Instance?](#how-do-i-access-the-mongo-shells-for-each-instance)
+* [How does it work?](#how-does-it-work)
+* [Robo 3T](#robo-3t)
+* [Thanks / Further Reading](#thanks--further-reading)
+
 ## What is it?
 This `docker-compose` setup starts a local mongo replica set with 3 instances running on: 
 - mongo1:30001
@@ -51,10 +60,9 @@ rs.initiate(
 ## Robo 3T
 I used Robo 3T to test it locally and used the following config for the connection:
 
-![Robo 3T Config](https://raw.githubusercontent.com/UpSync-Dev/docker-compose-mongo-replica-set/main/robo-3t.png)
+![Robo 3T Config](https://github.com/UpSync-Dev/docker-compose-mongo-replica-set/raw/main/robo-3t.png)
 
 ## Thanks / Further Reading
 - [How to turn standalone MongoDB server into a replica set with Docker-Compose](https://zgadzaj.com/development/docker/docker-compose/turning-standalone-mongodb-server-into-a-replica-set-with-docker-compose)
 - [Creating a MongoDB replica set using Docker 🍃](https://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/)
-- [
-asoorm/docker-compose-mongo-replicaset.yml](https://gist.github.com/asoorm/7822cc742831639c93affd734e97ce4f)
+- [asoorm/docker-compose-mongo-replicaset.yml](https://gist.github.com/asoorm/7822cc742831639c93affd734e97ce4f)
