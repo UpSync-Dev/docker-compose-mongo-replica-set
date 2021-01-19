@@ -1,5 +1,14 @@
 # Running a Local Mongo Replica Set
 
+## Contents
+* (What is it?)[#what-is-it]
+* (Are there any prerequisites?)[#are-there-any-prerequisites]
+* (How do I run the Replica Set?)[#how-do-i-run-the-replica-set]
+* (How do I access the Mongo Shells for each Instance?)[#how-do-i-access-the-mongo-shells-for-each-instance]
+* (How does it work?)[#how-does-it-work]
+* (Robo 3T)[#robo-3t]
+* (Thanks / Further Reading)[#thanks--further-reading]
+
 ## What is it?
 This `docker-compose` setup starts a local mongo replica set with 3 instances running on: 
 - mongo1:30001
