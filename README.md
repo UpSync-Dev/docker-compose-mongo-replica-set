@@ -65,5 +65,4 @@ I used Robo 3T to test it locally and used the following config for the connecti
 ## Thanks / Further Reading
 - [How to turn standalone MongoDB server into a replica set with Docker-Compose](https://zgadzaj.com/development/docker/docker-compose/turning-standalone-mongodb-server-into-a-replica-set-with-docker-compose)
 - [Creating a MongoDB replica set using Docker 🍃](https://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/)
-- [
-asoorm/docker-compose-mongo-replicaset.yml](https://gist.github.com/asoorm/7822cc742831639c93affd734e97ce4f)
+- [asoorm/docker-compose-mongo-replicaset.yml](https://gist.github.com/asoorm/7822cc742831639c93affd734e97ce4f)
