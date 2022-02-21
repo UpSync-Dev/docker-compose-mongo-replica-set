@@ -64,7 +64,7 @@ I used Robo 3T to test it locally and used the following config for the connecti
 
 ## Connecting with URI
 ```
-mongodb://localhost:27017,mongo1:30001,mongo2:30002,mongo3:30003/?replicaSet=my-replica-set
+mongodb://mongo1:30001,mongo2:30002,mongo3:30003/?replicaSet=my-replica-set
 ```
 
 ## Thanks / Further Reading
