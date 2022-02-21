@@ -21,8 +21,8 @@ This `docker-compose` setup starts a local mongo replica set with 3 instances ru
 - mongo3:30003
 
 ## Are there any prerequisites? 
+* Docker
 * Docker Compose
-* Docker
 * The following in your `/etc/hosts` file:
 ```
 127.0.0.1       mongo1
