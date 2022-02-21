@@ -9,6 +9,11 @@
 * [Robo 3T](#robo-3t)
 * [Thanks / Further Reading](#thanks--further-reading)
 
+## Disclaimer
+> :warning: **This setup is purely for local development purposes.**
+> 
+> This setup should not be used for production applications as it was not built with that in mind. 
+
 ## What is it?
 This `docker-compose` setup starts a local mongo replica set with 3 instances running on: 
 - mongo1:30001
@@ -16,9 +21,9 @@ This `docker-compose` setup starts a local mongo replica set with 3 instances ru
 - mongo3:30003
 
 ## Are there any prerequisites? 
-• Docker Compose
-• Docker
-• The following in your `/etc/hosts` file:
+* Docker
+* Docker Compose
+* The following in your `/etc/hosts` file:
 ```
 127.0.0.1       mongo1
 127.0.0.1       mongo2
