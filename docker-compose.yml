@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   mongo1:
-    image: mongo:4.2
+    image: mongo:4
     container_name: mongo1
     command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30001"]
     volumes:
@@ -15,7 +15,7 @@ services:
       start_period: 30s
 
   mongo2:
-    image: mongo:4.2
+    image: mongo:4
     container_name: mongo2
     command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30002"]
     volumes:
@@ -24,7 +24,7 @@ services:
       - 30002:30002
 
   mongo3:
-    image: mongo:4.2
+    image: mongo:4
     container_name: mongo3
     command: ["--replSet", "my-replica-set", "--bind_ip_all", "--port", "30003"]
     volumes:
