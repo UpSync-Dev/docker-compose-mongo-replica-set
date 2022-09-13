@@ -2,6 +2,7 @@
 
 ## Contents
 * [What is it?](#what-is-it)
+* [Releases](#)
 * [Are there any prerequisites?](#are-there-any-prerequisites)
 * [How do I run the Replica Set?](#how-do-i-run-the-replica-set)
 * [How do I access the Mongo Shells for each Instance?](#how-do-i-access-the-mongo-shells-for-each-instance)
@@ -19,6 +20,10 @@ This `docker-compose` setup starts a local mongo replica set with 3 instances ru
 - mongo1:30001
 - mongo2:30002
 - mongo3:30003
+
+## Versions
+* Different versions are available to cater for the various major versions of Mongo
+* You can find the most suitable one by looking at the [tags](https://github.com/UpSync-Dev/docker-compose-mongo-replica-set/tags) or [releases](https://github.com/UpSync-Dev/docker-compose-mongo-replica-set/releases) 
 
 ## Are there any prerequisites? 
 * Docker
